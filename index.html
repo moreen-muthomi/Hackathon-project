@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://github.com/moreen-muthomi/moreen-muthomi.git">
+    <title>Moreen Muthomi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Moreen Muthomi</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="home.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="experience.html">experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="education & certification.html">intrest</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contactus.html">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="website picture.jpeg" alt="Profile picture">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Moreen Muthomi</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a Data Analyst </div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">As a Data Analyst, I specialize in turning complex datasets into actionable insights that empower businesses to make informed decisions. With a strong background in statistical analysis, data visualization, and business intelligence, I thrive on uncovering patterns, trends, and opportunities that drive efficiency and innovation</p>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    
+                    
+                      </div>
+            </section>
+        
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init({offset:0});
+            </script>
+            <script>
+                function hamburg(){
+                    const navbar = document.querySelector(".dropdown")
+                    navbar.style.transform = "translateY(0px)"
+                }
+                function cancel(){
+                    const navbar = document.querySelector(".dropdown")
+                    navbar.style.transform = "translateY(-500px)"
+                }
+            </script>
+
+                
+        </body>
+        </html>
+        
+</body>
+</html>
