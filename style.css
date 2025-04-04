@@ -307,3 +307,9 @@ section{
         margin-bottom: 0px;
     }
 }
+
+custom-list li {
+    counter-increment: list-counter;
+    position: relative;
+    padding-left: 30px;
+}
